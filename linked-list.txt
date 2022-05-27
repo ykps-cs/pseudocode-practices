@@ -1,0 +1,105 @@
+// Since IB pseudocode does not support OOP, a node
+// in a linked list will be stored as an array with
+// 2 elements: [<value>, <next_node>].
+
+// For example, the linked list equivalent of [1, 2, 3]
+// is represented as a nested array:
+// [1, [2, [3, null]]]
+
+// Here are some functions that acts similar to getters
+// and setters for a node; your task is to implement
+// them first, and then implement the following functions
+// using these getters and setters instead of directly
+// accessing the value of a node through its array form.
+
+// Note that 'null' counts as an empty linked list.
+
+// constructor
+newNode(VALUE, NEXT_NODE)
+    return [VALUE, NEXT_NODE]
+end newNode
+
+getValue(NODE)
+    return NODE[0]
+end getValue
+
+setValue(NODE, VALUE)
+    // complete this function
+    output "NOT IMPLEMENTED!!!"
+end setValue
+
+getNext(NODE)
+    return NODE[1]
+end getNext
+
+setNext(NODE, NEXT_NODE)
+    // complete this function
+    output "NOT IMPLEMENTED!!!"
+end setNext
+
+// That's the end of getters and setters, now you need to
+// implement some more functions related to linked lists!
+
+// Calculates and returns the length of the linked list.
+length(START_NODE)
+    // complete this function
+    output "NOT IMPLEMENTED!!!"
+end length
+
+// Inserts a value at the END of the linked list.
+append(START_NODE, VALUE)
+    // complete this function
+    output "NOT IMPLEMENTED!!!"
+end append
+
+// Inserts a value at the BEGINNING of the linked list,
+// and returns the new start node of the list (since
+// prepending a value changes the starting node of the
+// list). This one has been completed for you.
+prepend(START_NODE, VALUE)
+    return newNode(VALUE, START_NODE)
+end prepend
+
+// Returns the value at the given index of the linked list.
+get(START_NODE, INDEX)
+    // complete this function
+    output "NOT IMPLEMENTED!!!"
+end get
+
+// Sets the value at the given index to the given value.
+set(START_NODE, INDEX, VALUE)
+    // complete this function
+    output "NOT IMPLEMENTED!!!"
+end set
+
+// Removes the element at the given index, and returns the
+// starting node of the list (since the starting node
+// will change if the 0-th element is removed).
+remove(START_NODE, INDEX)
+    // complete this function
+    output "NOT IMPLEMENTED!!!"
+end remove
+
+// Inserts the given element at the given index of the
+// linked list, and returns the starting node of the list
+// (since the starting node will change if the insertion
+// is at the 0-th index).
+insert(START_NODE, INDEX, VALUE)
+    // complete this function
+    output "NOT IMPLEMENTED!!!"
+end insert
+
+// Constructs a linked list based on a normal IB pseudocode
+// list/array and returns the starting node of the newly
+// constructed linked list.
+normalToLinked(NORMAL_LIST)
+    // complete this function
+    output "NOT IMPLEMENTED!!!"
+end normalToLinked
+
+// Converts a linked list into a normal IB pseudocode
+// list and returns the list.
+linkedToNormal(START_NODE)
+    // complete this function
+    output "NOT IMPLEMENTED!!!"
+end linkedToNormal
